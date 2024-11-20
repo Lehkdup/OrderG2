@@ -8,22 +8,22 @@ import jakarta.persistence.Id;
 public class Book {
     @Id
     @Column(nullable = false)
-    private Long id;
+    private java.lang.Long id;
 
     @Column(nullable = false)
     private String title;
 
     public Book(){}
-    public Book(Long id, String title) {
+    public Book(java.lang.Long id, String title) {
         this.id = id;
         this.title = title;
     }
 
-    public Long getId() {
+    public java.lang.Long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(java.lang.Long id) {
         this.id = id;
     }
 
