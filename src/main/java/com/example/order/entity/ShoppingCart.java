@@ -1,34 +1,18 @@
 package com.example.order.entity;
 
+import com.fasterxml.jackson.databind.SerializationFeature;
 import jakarta.persistence.*;
+import org.springframework.stereotype.Component;
+import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
 public class ShoppingCart {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
-    @Column
-    @ElementCollection
-    //@ManyToMany?
     private List<Long> booksInCart;
 
     public ShoppingCart(){
         booksInCart = new ArrayList<>();
-    }
-//    public ShoppingCart(List<Long> booksInCart) {
-//        this.booksInCart = booksInCart;
-//    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(java.lang.Long id) {
-        this.id = id;
     }
 
     public List<Long> getBooksInCart() {
@@ -37,5 +21,9 @@ public class ShoppingCart {
 
     public void setBooksInCart(List<Long> booksInCart) {
         this.booksInCart = booksInCart;
+    }
+
+    public void addBook(Long bookId){
+        this.booksInCart.add(bookId);
     }
 }
