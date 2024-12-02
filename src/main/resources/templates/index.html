@@ -22,10 +22,41 @@
             border-radius: 8px;
         }
 
-        h1 {
-            text-align: center;
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            margin: 0;
             color: #444;
-            margin-bottom: 1rem;
+        }
+
+        .shopping-cart {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1rem;
+        }
+
+        .shopping-cart-icon {
+            margin-right: 0.5rem;
+        }
+
+        .shopping-cart:hover {
+            text-decoration: underline;
+        }
+
+        .badge {
+            background-color: #007bff;
+            color: white;
+            border-radius: 50%;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
         }
 
         .search-form {
@@ -101,13 +132,23 @@
 <body>
 <div class="catalog">
 
-    <h1>Book Catalog</h1>
+    <!-- Header mit Shopping-Cart -->
+    <div class="header">
+        <h1>Book Catalog</h1>
+        <a th:href="@{/shoppingcart}" class="shopping-cart">
+            <span class="shopping-cart-icon">🛒</span>
+            Shopping Cart
 
+        </a>
+    </div>
+
+    <!-- Suchformular -->
     <form th:action="@{/search}" method="get" class="search-form">
         <input type="text" name="keywords" th:value="${keywords}" placeholder="Search for books...">
         <button type="submit" class="btn btn-info">Search</button>
     </form>
 
+    <!-- Tabelle der Bücher -->
     <table>
         <thead>
         <tr>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Warenkorb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        table thead {
+            background-color: #007bff;
+            color: white;
+        }
+
+        table th,
+        table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            font-weight: bold;
+        }
+
+        .books:hover {
+            background-color: #f1f1f1;
+        }
+
+        .actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-remove {
+            background-color: #dc3545;
+        }
+
+        .btn-remove:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Ihr Warenkorb</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ISBN</th>
+            <th>Titel</th>
+            <th>Autor</th>
+            <th>Aktionen</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="book : ${cart.booksInCart}" class="books">
+            <td th:text="${book.ISBN}"></td>
+            <td th:text="${book.title}"></td>
+            <td th:text="${book.author}"></td>
+            <td class="actions">
+                <a th:href="@{'/cart/remove/{id}'(id=${book.ISBN})}" class="btn btn-remove">Entfernen</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <a th:href="@{'/'}" class="btn">Weiter Suchen</a>
+    </div>
+</div>
+</body>
+</html>

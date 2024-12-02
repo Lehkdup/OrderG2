@@ -8,22 +8,28 @@ import org.springframework.web.context.annotation.SessionScope;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
+@SessionScope
 public class ShoppingCart {
-    private List<Long> booksInCart;
+    private List<Book> booksInCart = new ArrayList<>();
 
     public ShoppingCart(){
         booksInCart = new ArrayList<>();
     }
 
-    public List<Long> getBooksInCart() {
+    public List<Book> getBooksInCart() {
         return booksInCart;
     }
 
-    public void setBooksInCart(List<Long> booksInCart) {
+    public void setBooksInCart(List<Book> booksInCart) {
         this.booksInCart = booksInCart;
     }
 
-    public void addBook(Long bookId){
-        this.booksInCart.add(bookId);
+    public void addBook(Book book){
+        this.booksInCart.add(book);
+    }
+
+    public void removeBook(Book book){
+        this.booksInCart.remove(book);
     }
 }
