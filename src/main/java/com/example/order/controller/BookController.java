@@ -3,6 +3,7 @@ package com.example.order.controller;
 import com.example.order.entity.Book;
 import com.example.order.entity.ShoppingCart;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,6 +25,7 @@ public class BookController {
     private static final Logger logger = LoggerFactory.getLogger(BookController.class);
     private final ShoppingCart cart;
     private List<Book> tempBooksInCart = new ArrayList<>();
+    @Value("${catalog.url}") String url;
 
     public BookController(RestClient.Builder restClientBuilder, ShoppingCart cart) {
         this.restClient = restClientBuilder.build();
@@ -31,13 +33,13 @@ public class BookController {
     }
 
     public Book[] getBook(String keywords) {
-        String url;
+
         if (keywords == null || keywords.isEmpty()) {
-            url = "http://localhost:8080/books";
+            url += "/books";
             logger.info("Aufruf der URL: {}", url);
         }else{
-            url = "http://localhost:8080/books/search/" + keywords;
-            logger.info("http://localhost:8080/books/search/" + keywords);
+            url += "/books/search/" + keywords;
+            logger.info(url + "/books/search/" + keywords);
         }
 
         try {

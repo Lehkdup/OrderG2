@@ -1,12 +1,14 @@
 services:
 
   catalog:
-    image: "catalog:0.0.1-SNAPSHOT"
+    image: "cataloge:0.0.1-SNAPSHOT"
+    platform: "linux/amd64"
     ports:
       - "8080:8080"
 
   order:
     image: "order:0.0.1-SNAPSHOT"
+    platform: "linux/amd64"
     ports:
       - "8081:8081"
     environment:
