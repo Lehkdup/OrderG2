@@ -33,25 +33,27 @@ public class BookController {
     }
 
     public Book[] getBook(String keywords) {
+        String requestUrl; // Lokale Variable für die dynamische URL
 
         if (keywords == null || keywords.isEmpty()) {
-            url += "/books";
-            logger.info("Aufruf der URL: {}", url);
-        }else{
-            url += "/books/search/" + keywords;
-            logger.info(url + "/books/search/" + keywords);
+            requestUrl = url + "/books";
+            logger.info("Aufruf der URL: {}", requestUrl);
+        } else {
+            requestUrl = url + "/books/search/" + keywords;
+            logger.info("Aufruf der URL mit Schlüsselwörtern: {}", requestUrl);
         }
 
         try {
             return restClient.get()
-                    .uri(url)
+                    .uri(requestUrl)
                     .retrieve()
                     .body(Book[].class);
         } catch (Exception e) {
-            logger.error("Fehler beim Abrufen der Bücher von {}: {}", url, e.getMessage());
+            logger.error("Fehler beim Abrufen der Bücher von {}: {}", requestUrl, e.getMessage());
             return new Book[0];
         }
     }
+
 
 
     @GetMapping("/")
