@@ -135,7 +135,7 @@
     <!-- Header mit Shopping-Cart -->
     <div class="header">
         <h1>Book Catalog</h1>
-        <a th:href="@{/shoppingcart}" class="shopping-cart">
+        <a th:href="@{/shoppingcart}" id="go2cart_link" class="shopping-cart">
             <span class="shopping-cart-icon">🛒</span>
             Shopping Cart
 
@@ -144,8 +144,8 @@
 
     <!-- Suchformular -->
     <form th:action="@{/search}" method="get" class="search-form">
-        <input type="text" name="keywords" th:value="${keywords}" placeholder="Search for books...">
-        <button type="submit" class="btn btn-info">Search</button>
+        <input type="text" id="keywords" name="keywords" th:value="${keywords}" placeholder="Search for books...">
+        <button type="submit" id="search_btn" class="btn btn-info">Search</button>
     </form>
 
     <!-- Tabelle der Bücher -->
@@ -164,7 +164,7 @@
             <td th:text="${book.title}"></td>
             <td th:text="${book.author}"></td>
             <td>
-                <a th:href="@{'/cart/add/{id}'(id=${book.ISBN})}" class="btn btn-primary">
+                <a th:href="@{'/cart/add/{id}'(id=${book.ISBN})}" id="add2cart_link" class="btn btn-primary">
                     Add to Cart
                 </a>
             </td>

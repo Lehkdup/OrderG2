@@ -13,3 +13,17 @@ services:
       - "8081:8081"
     environment:
       CATALOG_URL: "http://catalog:8080"
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: catalog
+      POSTGRES_PASSWORD: catalog
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8085:8080"
