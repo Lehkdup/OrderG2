@@ -1,0 +1,301 @@
+RUN	com.example.order.scala.BookstoreSimulation	bookstoresimulation	1734081006941	 	3.7.6
+USER	Bookstore API Test	START	1734081007827
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007827
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007807
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007809
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007993
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007995
+USER	Bookstore API Test	START	1734081007995
+USER	Bookstore API Test	START	1734081007994
+USER	Bookstore API Test	START	1734081007995
+USER	Bookstore API Test	START	1734081007996
+USER	Bookstore API Test	START	1734081007996
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007996
+USER	Bookstore API Test	START	1734081007997
+USER	Bookstore API Test	START	1734081007809
+USER	Bookstore API Test	START	1734081007997
+USER	Bookstore API Test	START	1734081007998
+USER	Bookstore API Test	START	1734081007998
+USER	Bookstore API Test	START	1734081007998
+USER	Bookstore API Test	START	1734081007998
+USER	Bookstore API Test	START	1734081007999
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081008001
+USER	Bookstore API Test	START	1734081008001
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081008002
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081008002
+USER	Bookstore API Test	START	1734081008003
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081008003
+USER	Bookstore API Test	START	1734081008003
+USER	Bookstore API Test	START	1734081008003
+USER	Bookstore API Test	START	1734081008003
+USER	Bookstore API Test	START	1734081008003
+USER	Bookstore API Test	START	1734081008004
+USER	Bookstore API Test	START	1734081008004
+USER	Bookstore API Test	START	1734081008004
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081008005
+USER	Bookstore API Test	START	1734081008005
+USER	Bookstore API Test	START	1734081008006
+USER	Bookstore API Test	START	1734081007827
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081007827
+USER	Bookstore API Test	START	1734081008007
+USER	Bookstore API Test	START	1734081008007
+USER	Bookstore API Test	START	1734081008008
+USER	Bookstore API Test	START	1734081008008
+USER	Bookstore API Test	START	1734081008008
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081007829
+USER	Bookstore API Test	START	1734081008010
+USER	Bookstore API Test	START	1734081008010
+USER	Bookstore API Test	START	1734081008010
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081008011
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081008011
+USER	Bookstore API Test	START	1734081008012
+USER	Bookstore API Test	START	1734081008012
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081008013
+USER	Bookstore API Test	START	1734081008013
+USER	Bookstore API Test	START	1734081008013
+USER	Bookstore API Test	START	1734081008014
+USER	Bookstore API Test	START	1734081007808
+USER	Bookstore API Test	START	1734081008013
+USER	Bookstore API Test	START	1734081007828
+USER	Bookstore API Test	START	1734081008015
+USER	Bookstore API Test	START	1734081008015
+USER	Bookstore API Test	START	1734081008016
+USER	Bookstore API Test	START	1734081008016
+USER	Bookstore API Test	START	1734081008017
+REQUEST		Get Books with Keywords	1734081008018	1734081008120	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008004	1734081008103	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008051	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007995	1734081008048	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008048	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008008	1734081008108	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008118	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008052	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008112	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008004	1734081008100	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008047	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008047	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008010	1734081008119	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008005	1734081008094	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008014	1734081008120	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008012	1734081008123	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008001	1734081008099	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008057	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008048	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008003	1734081008100	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008008	1734081008108	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007993	1734081008048	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008004	1734081008100	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007998	1734081008065	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008065	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008002	1734081008100	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008013	1734081008120	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008120	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008048	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008008	1734081008111	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007996	1734081008064	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008052	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008302
+USER	Bookstore API Test	END	1734081008303
+USER	Bookstore API Test	END	1734081008303
+USER	Bookstore API Test	END	1734081008303
+USER	Bookstore API Test	END	1734081008303
+USER	Bookstore API Test	END	1734081008303
+REQUEST		Get Books with Keywords	1734081007994	1734081008310	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007993	1734081008310	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008311	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008311	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008311
+USER	Bookstore API Test	END	1734081008311
+REQUEST		Get Books with Keywords	1734081007994	1734081008311	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008311
+REQUEST		Get Books with Keywords	1734081008003	1734081008311	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008311
+USER	Bookstore API Test	END	1734081008311
+USER	Bookstore API Test	END	1734081008311
+REQUEST		Get Books with Keywords	1734081007998	1734081008312	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008001	1734081008312	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008003	1734081008312	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008312	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008312
+REQUEST		Get Books with Keywords	1734081008013	1734081008312	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008312
+REQUEST		Get Books with Keywords	1734081008006	1734081008312	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008312	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007997	1734081008312	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008312
+USER	Bookstore API Test	END	1734081008312
+USER	Bookstore API Test	END	1734081008313
+REQUEST		Get Books with Keywords	1734081007996	1734081008313	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007994	1734081008313	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008313
+REQUEST		Get Books with Keywords	1734081008008	1734081008313	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008313
+USER	Bookstore API Test	END	1734081008313
+USER	Bookstore API Test	END	1734081008314
+USER	Bookstore API Test	END	1734081008314
+REQUEST		Get Books with Keywords	1734081007998	1734081008314	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008314
+REQUEST		Get Books with Keywords	1734081007954	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007993	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007997	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008016	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008010	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008013	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007994	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007993	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008314	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007995	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008014	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007994	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007996	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008315	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007995	1734081008315	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008314
+USER	Bookstore API Test	END	1734081008314
+USER	Bookstore API Test	END	1734081008314
+USER	Bookstore API Test	END	1734081008314
+USER	Bookstore API Test	END	1734081008314
+REQUEST		Get Books with Keywords	1734081008015	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008314
+USER	Bookstore API Test	END	1734081008314
+REQUEST		Get Books with Keywords	1734081008003	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+REQUEST		Get Books with Keywords	1734081007995	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008315
+REQUEST		Get Books with Keywords	1734081008011	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008315
+USER	Bookstore API Test	END	1734081008316
+REQUEST		Get Books with Keywords	1734081007995	1734081008316	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008009	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008316
+USER	Bookstore API Test	END	1734081008316
+USER	Bookstore API Test	END	1734081008316
+REQUEST		Get Books with Keywords	1734081008011	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008316
+REQUEST		Get Books with Keywords	1734081007955	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008316
+USER	Bookstore API Test	END	1734081008316
+USER	Bookstore API Test	END	1734081008316
+USER	Bookstore API Test	END	1734081008316
+REQUEST		Get Books with Keywords	1734081007994	1734081008316	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008317
+USER	Bookstore API Test	END	1734081008317
+USER	Bookstore API Test	END	1734081008317
+REQUEST		Get Books with Keywords	1734081008003	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008012	1734081008317	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008317
+USER	Bookstore API Test	END	1734081008317
+REQUEST		Get Books with Keywords	1734081008015	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008002	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007998	1734081008317	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008016	1734081008318	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008317
+USER	Bookstore API Test	END	1734081008317
+USER	Bookstore API Test	END	1734081008317
+USER	Bookstore API Test	END	1734081008318
+USER	Bookstore API Test	END	1734081008318
+USER	Bookstore API Test	END	1734081008318
+USER	Bookstore API Test	END	1734081008318
+REQUEST		Get Books with Keywords	1734081007999	1734081008318	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008318	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008318	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007993	1734081008318	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007955	1734081008318	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008005	1734081008318	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008318
+REQUEST		Get Books with Keywords	1734081008010	1734081008318	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008318
+USER	Bookstore API Test	END	1734081008318
+USER	Bookstore API Test	END	1734081008318
+REQUEST		Get Books with Keywords	1734081007993	1734081008318	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008319
+USER	Bookstore API Test	END	1734081008319
+USER	Bookstore API Test	END	1734081008319
+REQUEST		Get Books with Keywords	1734081007994	1734081008319	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081008003	1734081008319	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007954	1734081008319	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008319
+USER	Bookstore API Test	END	1734081008319
+USER	Bookstore API Test	END	1734081008319
+USER	Bookstore API Test	END	1734081008319
+REQUEST		Get Books with Keywords	1734081007994	1734081008319	KO	status.find.is(200), but actually found 404
+REQUEST		Get Books with Keywords	1734081007994	1734081008319	KO	status.find.is(200), but actually found 404
+USER	Bookstore API Test	END	1734081008320
+USER	Bookstore API Test	END	1734081008320
