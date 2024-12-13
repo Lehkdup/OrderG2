@@ -5,6 +5,10 @@ services:
     platform: "linux/amd64"
     ports:
       - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:postgresql://db:5432/postgres"
+      SPRING_DATASOURCE_USERNAME: "catalog"
+      SPRING_DATASOURCE_PASSWORD: "catalog"
 
   order:
     image: "order:0.0.1-SNAPSHOT"
@@ -21,6 +25,8 @@ services:
       POSTGRES_DB: postgres
       POSTGRES_USER: catalog
       POSTGRES_PASSWORD: catalog
+    ports:
+      - "5432:5432"
 
   adminer:
     image: adminer
