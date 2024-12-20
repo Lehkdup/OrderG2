@@ -34,7 +34,7 @@ spec:
         app: order
     spec:
       containers:
-        - image: simas/order:7
+        - image: "order:0.0.1-SNAPSHOT"
           name: order
           imagePullPolicy: Always
           ports:
